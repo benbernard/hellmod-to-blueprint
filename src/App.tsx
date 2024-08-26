@@ -38,7 +38,7 @@ function App() {
           />
 
           <div className="mt-10 h-full w-full min-w-[600px] text-left">
-            Blueprint String
+            Requester Chest Blueprint
           </div>
           <textarea
             className="mt-4 h-full w-full p-2 text-black"
