@@ -22,13 +22,11 @@ function App() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-800 font-normal text-white leading-6 text-opacity-90">
-      <div className="m-0 flex min-w-[320px] max-w-screen-xl flex-col place-items-center justify-between p-8 text-center">
-        <div className="flex flex-col justify-center">
+    <div className="flex min-h-screen min-w-[320px] items-center justify-center bg-zinc-800 font-normal text-white leading-6 text-opacity-90">
+      <div className="m-0 flex w-[800px] min-w-[320px] max-w-screen-xl flex-col place-items-center justify-between p-8 text-center">
+        <div className="flex w-full flex-col justify-center">
           <div className="w-full font-bold text-4xl">Hellmod to Blueprint</div>
-          <div className="mt-10 h-full w-full min-w-[600px] text-left">
-            Hellmod String
-          </div>
+          <div className="mt-10 h-full w-full text-left">Hellmod String</div>
           <textarea
             className="mt-4 h-full w-full p-2 text-black"
             rows={4}
@@ -37,7 +35,7 @@ function App() {
             onBlur={(e) => updateHellmodString(e.target.value)}
           />
 
-          <div className="mt-10 h-full w-full min-w-[600px] text-left">
+          <div className="mt-10 h-full w-full text-left">
             Requester Chest Blueprint
           </div>
           <textarea
