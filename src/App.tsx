@@ -129,7 +129,7 @@ function createBlueprint(factories: Factory[]) {
     .map((factory, index) => ({
       index: index + 1,
       name: factory.name,
-      count: factory.count - 1,
+      count: factory.count,
     }));
 
   return {
