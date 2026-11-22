@@ -1,3 +1,9 @@
+# Hellmod to Blueprint
+
+This repository is archived. Use the [live converter](https://hellmod.bernards.space/).
+
+The maintained source and deployment are in [homelab-config](https://github.com/benbernard/homelab-config/tree/master/nas/helmod-site/blueprint).
+
 None of this....
 
 
